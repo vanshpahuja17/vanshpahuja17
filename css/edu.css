@@ -1,74 +1,67 @@
-body, html {
-    height: 100%;
-    background-color: #e4c2fa;
-  }
-  
-/* .bg {
-    background-image: url("baby.jpeg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
-
-*, *::before, *::afrer {
-  box-sizing: border-box;
-}
 
 body {
-  width: 1000px;
-  margin: 100px auto 0;
-  background: #e4c2fa;
+  background-color: #edcdf0; 
 }
 
-.c_50_50 {
-  background: #fffdfd;
+.flex-container {
   display: flex;
-  height: 350px;
-  margin-bottom: 50px;
-}
+  flex-wrap: wrap; }
 
-.c_50_50_image {
-  max-width: 50%;
-  flex: 1 0 50%;
-}
+.flex-card {
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis:300px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #ffffff;
+  margin: 2rem;
+  -webkit-transition: all 250ms;
+  -moz-transition: all 250ms;
+  transition: all 250ms;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  .flex-card div {
+    flex: 100%; }
+  .flex-card .hero {
+    position: relative;
+    color: #ffffff;
+    height: 200px;
+    }
 
-.c_50_50_image img {
-  width: 100%;
-}
-
-.c_50_50_content {
-  max-width: 50%;
-  flex: 1 0 50%;
-  align-self: center;
-}
-
-/* .c_50_50_content_info {
-  padding: 0 150px;
-} */
-
-.c_50_50_first 
-  .c_50_50_image img {
-    object-fit: cover;
-    height: 100%;
+    .flex-card .hero h3 {
+      position: relative;
+      text-align: center;
+      bottom: 15px;
+      left: 0;
+      padding: 0 1rem; }
+  .flex-card .content {
+    color: #555;
+    padding: 1.5rem 1rem  2rem 1rem; }
+  .flex-card .footer {
+    color: #0097A7;
+    padding: 1rem;
+    border-top: 1px solid #eee;
+    align-self: flex-end;
   }
 
+  .new {
+    padding-top: 100px;
+  }
+  h2, h3, p {
+    text-align: center;
+  }
 
-.c_50_50_first_second {
-  overflow: hidden; 
-}
+    .img1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iiit.ac.in/gallery/images/campus/07(1).jpg") no-repeat;
+    background-size: cover;
+  }
 
-.c_50_50_content_info--body {
-	padding-left: 60px;
-	padding-top: 20px;
-	/* align-items: center; */
-}
+    .img2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/dps.jpg") no-repeat;
+    background-size: cover;
+  }
 
-.c_50_50_content_info--heading {
-	 padding: 0 110px;
-}
-
+  .img3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://whichschooladvisor.com/media/large/8/d/8dc849b3eceb.jpeg") no-repeat;
+    background-size: cover;
+  }

@@ -1,7 +1,6 @@
 
 /* Fonts */
-body, html {
-    height: 100%;
+body{
     background-color: #f8958e;
   }
 
@@ -13,11 +12,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.05em;
 }
-
-* {
-  box-sizing: border-box;
-}
-
 
 /* Styling */
 .timeline {
@@ -118,5 +112,5 @@ body {
 }
 
 .exp {
-    padding: 50px;
+    padding: 100px;
 }

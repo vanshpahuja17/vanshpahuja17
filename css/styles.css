@@ -1,5 +1,5 @@
 body, html {
-    height: 100%;
+    height: 80%;
   }
   
 .section1 {
@@ -127,3 +127,26 @@ img {
 	max-width: 100%;
 }
 
+.arrowdown {
+    margin: 2em 0;
+    border: solid rgb(15, 14, 14);
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 15px;
+    align-items: center;
+    transform: rotate(45deg);
+    animation: slide-bottom 2.5s ease-in-out infinite alternate both;
+    justify-content: center;
+  }
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0) rotate(45deg);
+  }
+
+  100% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px) rotate(45deg);
+  }
+}
