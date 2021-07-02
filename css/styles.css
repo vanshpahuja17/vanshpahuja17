@@ -1,14 +1,25 @@
-body, html {
-    height: 80%;
-  }
-  
-.section1 {
-  background-color: #edcdf0;
+html {
+    height: 100%;
 }
 
-.section2 {
-  background-color: #e4c2fa;
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
+.section1 {
+    height: 100%;
+    padding-top: 20px;
+    background-color: #edcdf0;
+}
+  
+.section2 {
+    height: 100%;
+    padding-top: 20px;
+    background-color: #e4c2fa;
+}
+
 /* .bg {
     background-image: url("baby.jpeg");
     height: 100%;
@@ -122,9 +133,10 @@ h1 {
 }
 
 img {
-	align-self: center;
-	max-height: 100%; 
-	max-width: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .arrowdown {
@@ -137,6 +149,7 @@ img {
     transform: rotate(45deg);
     animation: slide-bottom 2.5s ease-in-out infinite alternate both;
     justify-content: center;
+    padding-left: 1000px;
   }
 
 @keyframes slide-bottom {
@@ -149,4 +162,35 @@ img {
     -webkit-transform: translateY(30px);
     transform: translateY(30px) rotate(45deg);
   }
+}
+
+.button-down {
+  position: relative;
+  padding: 5px;
+  margin: 30px auto;
+  background: #000;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+
+.button-down:hover {
+  transform: translate3d(0, 10px, 0);
+}
+.button-down::after {
+  content: "";
+  position: absolute;
+  left: 17px;
+  z-index: 11;
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.button-down::after {
+  top: 10px;
+  transform: rotate(225deg);
 }

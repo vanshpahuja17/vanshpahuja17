@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
+        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/skills.css">
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <title>Me</title>
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-2 md-py-0 fixed-top">
+        <a href="" class="navbar-brand"> SWETHA </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a href="index.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a href="experience.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
+                        Experience </a>
+                </li>
+                <li class="nav-item">
+                    <a href="education.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
+                        Education </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link active" onmouseover="hover(this)" onmouseout="reset(this)">
+                        Skills </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="exp">
+        <div class="container">
+        <form id="newForm" action="javascript:submit()">
+            <label>Name
+                <input required type="text" value="" name="Name" id="name">
+            </label>
+            <label>Skill
+                <input required type="text" value="" name="Skill" id="skill">
+            </label>
+            <label>Level
+                <select name="Level" id="Level">
+                    <optgroup label="Level">
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Proficient</option>
+                    </optgroup>
+                </select>
+            </label>
+            <br>
+            <br>
+            <input type="submit" name="submit" id="submit" value="Submit">
+        </form>
+        
+
+
+        <br>
+        <br>
+    </div>
+    <div >
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+
+            <tbody id="tBody">
+            </tbody>
+        </table>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/nav.js"></script>
+    <script type="text/javascript" src="../js/skills.js"></script>
+</body>
+
+</html>
