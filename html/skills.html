@@ -9,74 +9,76 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css"
-        integrity="sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../css/skills.css">
     <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
 
     <title>Me</title>
 </head>
 
 <body>
-    <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-2 md-py-0 fixed-top">
-        <a href="" class="navbar-brand"> SWETHA </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navLinks">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a href="index.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)"> Home </a>
-                </li>
-                <li class="nav-item">
-                    <a href="experience.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                        Experience </a>
-                </li>
-                <li class="nav-item">
-                    <a href="education.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
-                        Education </a>
-                </li>
-                <li class="nav-item">
-                    <a href="skills.html" class="nav-link active" onmouseover="hover(this)" onmouseout="reset(this)">
-                        Skills </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div id="container">
+        <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-2 md-py-0">
+            <a href="" class="navbar-brand"> SWETHA </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a href="index.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
+                            Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="experience.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
+                            Experience </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="education.html" class="nav-link" onmouseover="hover(this)" onmouseout="reset(this)">
+                            Education </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="skills.html" class="nav-link active" onmouseover="hover(this)" onmouseout="reset(this)">
+                            Skills </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <div class="exp">
+
         <div class="container">
         <form id="newForm" action="javascript:submit()">
-            <label>Name
-                <input required type="text" value="" name="Name" id="name">
-            </label>
-            <label>Skill
-                <input required type="text" value="" name="Skill" id="skill">
-            </label>
-            <label>Level
-                <select name="Level" id="Level">
-                    <optgroup label="Level">
-                        <option value="Beginner">Beginner</option>
-                        <option value="Intermediate">Intermediate</option>
-                        <option value="Advanced">Proficient</option>
-                    </optgroup>
-                </select>
-            </label>
-            <br>
-            <br>
-            <input type="submit" name="submit" id="submit" value="Submit">
-        </form>
+            <!-- Name input -->
+            <div class="form-outline mb-4">
+                <input required type="text" id="form4Example1 name" class="form-control" />
+                <label class="form-label" for="form4Example1">Name</label>
+            </div>
         
-
-
-        <br>
-        <br>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <input required id="form4Example2 skill" class="form-control" />
+                <label class="form-label" for="form4Example2">Skill</label>
+            </div>
+        
+            <label class="visually-hidden" for="inlineFormSelectPref">Level</label>
+            <select class="select" id="level">
+                <option selected disabled>Choose level</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediat">Intermediate</option>
+                <option value="Proficient">Proficient</option>
+            </select>
+            <br>
+            <br>
+            <!-- Submit button -->
+            <button type="submit" id="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+        </form>
     </div>
     <div >
         <table>
@@ -92,6 +94,36 @@
     </div>
     </div>
 
+    <footer>
+    
+        <div class="social_links">
+            <a href="https://www.instagram.com/swethaa_2.0/?hl=en">
+                <span class="fa-stack fa-lg ig combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+            <a href="https://www.facebook.com/SwethaVipparla/">
+                <span class="fa-stack fa-lg fb combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+            <a href="https://www.linkedin.com/in/swethavipparla/">
+                <span class="fa-stack fa-lg tw combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+            <a href="https://github.com/SwethaVipparla">
+                <span class="fa-stack fa-lg tw combo">
+                    <i class="fa fa-circle fa-stack-2x circle"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse icon"></i>
+                </span>
+            </a>
+        </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -101,6 +133,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
     <script type="text/javascript" src="../js/nav.js"></script>
     <script type="text/javascript" src="../js/skills.js"></script>
 </body>

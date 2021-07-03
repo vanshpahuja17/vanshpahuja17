@@ -1,0 +1,65 @@
+
+.social_links
+{
+    padding: 1rem;
+    background: #383838;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.social_links .combo
+{
+    transform: scale(0.9);
+    transition: 0.4s ease-in;
+    margin: 0 0.5rem;
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+}
+.combo .circle
+{
+    color: #f9f9f9;
+    transition: 0.4s ease-in;
+    font-size: 3em;
+}
+.combo .icon
+{
+    color: #444343;
+    font-size: 2rem;
+    transform: translateY(1px);
+    transition: 0.2s ease-in;
+}
+.combo:hover
+{
+    transform: scale(1.1);
+}
+.combo:hover , .combo:hover .icon
+{
+    color:white;
+}
+.ig:hover , .ig:hover .circle
+{
+    color:#e91e63;
+}
+.fb:hover , .fb:hover .circle
+{
+    color:#2196f3;
+}
+.yt:hover , .yt:hover .circle
+{
+    color:#f44336;
+}
+.tw:hover , .tw:hover .circle
+{
+    color:#2196f3;
+}
+.gt:hover , .gt:hover .circle{
+    color: #1f1f1f;
+}
+
+.body {
+    justify-content: center;
+    flex-direction: column;
+}

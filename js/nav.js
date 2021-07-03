@@ -5,17 +5,18 @@ $(function () {
   });
 });
 
-$(document).ready(function () {
-  $(document).scroll(function () {
-    var scroll = $(this).scrollTop();
-    var topDist = $("#container").position();
-    if (scroll > topDist.top) {
-      $("nav").css({ position: "fixed", top: "0" });
-    } else {
-      $("nav").css({ position: "static", top: "auto" });
-    }
+document.addEventListener("DOMContentLoaded", function(){
+  window.addEventListener('scroll', function() {
+      if (window.scrollY > 0.05) {
+        document.getElementById('mainNavbar').classList.add('fixed-top');
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('mainNavbar').classList.remove('fixed-top');
+        document.body.style.paddingTop = '0';
+      } 
   });
-});
+}); 
 
 const hover = (link) => {
   link.style.color = "#EA1C2C";

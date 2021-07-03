@@ -23,6 +23,12 @@
     transition: background 500ms;
 }
 
+.fixed {
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
 @media (max-width: 1500px) {
     #headingGroup h1 {
         font-weight: 100;
