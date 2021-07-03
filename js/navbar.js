@@ -23,5 +23,5 @@ const hover = (link) => {
 };
 
 const reset = (link) => {
-  link.style.color = "#5a5858";
+  link.style.color = "rgb(246, 250, 253)";
 };

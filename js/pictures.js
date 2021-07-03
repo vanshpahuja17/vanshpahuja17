@@ -1,5 +1,5 @@
 function changeImage() {
-
+    
     console.log(document.getElementById("change").src);
     if (document.getElementById("change").src == "https://images.hdqwalls.com/wallpapers/bring-me-thanos-n6.jpg")
         document.getElementById("change").src = "https://www.enjpg.com/img/2020/captain-america-35.jpg";

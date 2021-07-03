@@ -1,0 +1,75 @@
+body {
+    background-color: #edcdf0;
+    font-family: 'Roboto';
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.flex-card {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis:300px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+    margin: 2rem;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    transition: all 250ms;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); 
+}
+
+.flex-card div {
+flex: 100%; 
+}
+
+.flex-card .hero {
+    position: relative;
+    color: #ffffff;
+    height: 200px;
+}
+
+.flex-card .hero h3 {
+    position: relative;
+    text-align: center;
+    bottom: 15px;
+    left: 0;
+    padding: 0 1rem; 
+}
+
+.flex-card .content {
+    color: #555;
+    padding: 1.5rem 1rem  2rem 1rem; 
+}
+
+.flex-card .footer {
+    padding: 1rem;
+    border-top: 1px solid #eee;
+    align-self: flex-end;
+}
+
+.new {
+    padding-top: 40px;
+}
+h2, h3, h4, p {
+    text-align: center;
+}
+
+.img1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iiit.ac.in/gallery/images/campus/07(1).jpg") no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/dps.jpg") no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://whichschooladvisor.com/media/large/8/d/8dc849b3eceb.jpeg") no-repeat;
+    background-size: cover;
+}
