@@ -1,8 +1,7 @@
 
 .social_links
 {
-    padding: 1rem;
-    background: #383838;
+    margin-left: 0;
     border-radius: 1rem;
     margin-top: 2rem;
     display: flex;
@@ -54,9 +53,4 @@
 }
 .gt:hover , .gt:hover .circle{
     color: #1f1f1f;
-}
-
-.body {
-    justify-content: center;
-    flex-direction: column;
 }

@@ -1,7 +1,7 @@
 
 /* Fonts */
 body{
-    background-color: #f8958e;
+    background-color: #e4c2fa;
   }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
@@ -37,10 +37,6 @@ body {
     }
 
 .timeline-event .timeline-event-copy  h3 {
-        /* animation-name: color_change; 
-        animation-duration: 1s; 
-        animation-iteration-count: 1; 
-        animation-direction: alternate;  */
         color: #ffffff; 
       }
 
@@ -112,5 +108,5 @@ body {
 }
 
 .exp {
-    padding-top: 100px;
+    padding-top: 50px;
 }
