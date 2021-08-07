@@ -16,11 +16,32 @@ img {
   text-transform: uppercase;
   font-size: 5em;
   letter-spacing: .085em;
-  margin: 4.5rem 0 1rem;
+  margin: 1rem 0 1rem;
+  font-family: 'Lora';
 }
 
-.title {
-  font-family: 'Lora';
+.top {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: .085em;
+  margin: 2rem 0 1rem;
+}
+
+.tagline2 {
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: .3em;
+  margin: 10px 0 20px;
+  color: rgb(73, 72, 72);
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .tagline {
@@ -29,14 +50,7 @@ img {
   display: block;
   letter-spacing: .3em;
   margin: 10px 0 40px;
-  color: #aaa;
-}
-
-.profile-img {
-  float: left;
-  width: 350px;
-  margin-right: 1.5em;
-  display: block;
+  color: rgb(73, 72, 72);
 }
 
 .page {
@@ -71,7 +85,7 @@ img {
 
 .about-me {
   margin: 20px 0 0;
-  padding-top: 60px;
+  padding-top: 10px;
   font-family: Nunito;
   font-size: 20px;
 }

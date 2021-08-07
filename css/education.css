@@ -30,7 +30,7 @@ flex: 100%;
 .flex-card .hero {
     position: relative;
     color: #ffffff;
-    height: 200px;
+    height: 300px;
 }
 
 .flex-card .hero h3 {
@@ -60,16 +60,16 @@ h2, h3, h4, p {
 }
 
 .img1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.iiit.ac.in/gallery/images/campus/07(1).jpg") no-repeat;
+    background: url("https://www.iiit.ac.in/gallery/images/campus/07(1).jpg") no-repeat;
     background-size: cover;
 }
 
 .img2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/dps.jpg") no-repeat;
+    background: url("../img/dps.jpg") no-repeat;
     background-size: cover;
 }
 
 .img3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://whichschooladvisor.com/media/large/8/d/8dc849b3eceb.jpeg") no-repeat;
+    background: url("https://whichschooladvisor.com/media/large/8/d/8dc849b3eceb.jpeg") no-repeat;
     background-size: cover;
 }
