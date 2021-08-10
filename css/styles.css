@@ -14,16 +14,16 @@ img {
 .title {
   text-align: center;
   text-transform: uppercase;
-  font-size: 4em;
+  font-size: 2.5em;
   letter-spacing: .085em;
   margin: 1rem 0 1rem;
-  font-family: 'Lora';
+  color: red;
 }
 
 .top {
   text-align: center;
   text-transform: uppercase;
-  font-size: 2em;
+  font-size: 1.5em;
   letter-spacing: .085em;
   margin: 2rem 0 1rem;
 }
@@ -33,7 +33,7 @@ img {
   text-transform: uppercase;
   display: block;
   letter-spacing: .3em;
-  margin: 10px 0 20px;
+  margin: 10px 0 10px;
   color: rgb(73, 72, 72);
   font-weight: 1000;
 }
@@ -50,7 +50,7 @@ img {
   text-transform: uppercase;
   display: block;
   letter-spacing: .3em;
-  margin: 10px 0 40px;
+  margin-top: 10px;
   color: rgb(73, 72, 72);
   font-weight: 1000;
 }
@@ -58,7 +58,7 @@ img {
 .page {
   max-width: 980px;
   padding: 0 20px;
-  margin: 75px auto 0;
+  margin: 40px auto 0;
 }
 
 .page a {
@@ -86,10 +86,9 @@ img {
 }
 
 .about-me {
-  margin: 20px 0 0;
-  padding-top: 10px;
+  margin: 0;
   font-family: Nunito;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 p {
