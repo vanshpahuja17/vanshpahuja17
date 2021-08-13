@@ -1,0 +1,45 @@
+body {
+  background-color: #edcdf0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  min-height: 100vh;
+}
+
+.container {
+    padding: 1rem 3rem 1rem;
+}
+
+.gallery-container {
+  padding: 20px;
+}
+
+.header .lead {
+  max-width: 620px;
+}
+
+h2{
+  text-align: center;
+}
+
+a{
+  cursor: pointer;
+}
+
+span {
+  color: #094afd;
+}
+
+.gallery-item1 {
+  width: 500px;
+  padding: 5px;
+}
+
+.gallery-item {
+  width: 200px;
+  padding: 5px;
+}
+
+.lg-show-in .lg-outer.lg-hide-items .lg-toolbar {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

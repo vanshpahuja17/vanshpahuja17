@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
+ body {
+    background-color: #edcdf0;
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	 font-size: 13px;
+	 color: #434343;
+}
+
+.container2 {
+    padding: 1rem 10rem 2rem;
+    font-size: 20px;
+}
+
+.container {
+    padding: 1rem 3rem 3rem;
+}
+ .card {
+	 background-repeat: no-repeat;
+	 background-position: center 35%;
+	 background-size: 30px;
+	 background-color: #fff;
+	 box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05);
+	 transition: box-shadow 0.3s ease-out, transform 0.3s ease-out, opacity 0.2s ease-out;
+	 transition-delay: 0.1s;
+	 overflow: hidden;
+	 position: relative;
+	 border-radius: 4px;
+	 margin-bottom: 30px;
+	 transform: translateZ(0);
+}
+ .card .featured-image {
+	 height: 200px;
+	 width: 100%;
+	 left: 0px;
+	 top: 0px;
+}
+ .card .featured-image img {
+	 height: 100%;
+	 width: 100%;
+	 object-position: center;
+	 object-fit: cover;
+	 border: 0;
+}
+ .card .content {
+	 padding-bottom: 60px;
+	 background: #fff;
+	 padding: 10px;
+	 bottom: 0;
+	 width: 100%;
+	 text-align: center;
+     font-size: 15px;
+     color: rgb(248, 11, 11);
+}
+ .card .meta {
+	 border-top: 1px solid rgba(0, 0, 0, 0.075);
+	 display: block;
+	 padding: 10px 15px;
+}
+ .card:hover {
+	 opacity: 1 !important;
+	 box-shadow: rgba(45, 45, 45, 0.05) 0px 2px 2px, rgba(49, 49, 49, 0.05) 0px 4px 4px, rgba(42, 42, 42, 0.05) 0px 8px 8px, rgba(32, 32, 32, 0.05) 0px 16px 16px, rgba(49, 49, 49, 0.05) 0px 32px 32px, rgba(35, 35, 35, 0.05) 0px 64px 64px;
+	 transform: translate(0, -4px);
+	 z-index: 999;
+}
+ 
+/* Style the Image Used to Trigger the Modal */
+#myImg,#myImg2,#myImg3,#myImg4,#myImg5,#myImg6,#myImg7,#myImg8,#myImg9,#myImg10,#myImg11,#myImg12,#myImg13,#myImg14 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover,#myImg2:hover,#myImg3:hover,#myImg4:hover,#myImg5:hover,#myImg6:hover,#myImg7:hover,#myImg8:hover,#myImg9:hover,#myImg10:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    /* z-index: 1; Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 900px;
+}
+
+.modal-content1 {
+    margin: auto;
+    display: block;
+    width: 1250px;
+    height: 100%;
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 90px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.3s;
+    animation-name: zoom;
+    animation-duration: 0.3s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

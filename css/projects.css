@@ -1,9 +1,21 @@
 * {
 	 box-sizing: border-box;
 }
- body {
-	 background: #f1f1f1;
+body {
+    background-color: #edcdf0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.container {
+    padding: 0;
+}
+
+.container2 {
+    padding: 1rem 10rem 2rem;
+    font-size: 20px;
+    line-height: 20px;
+}
+
  .blog-card {
 	 display: flex;
 	 flex-direction: column;
@@ -104,7 +116,7 @@
 	 font-size: 1rem;
 	 font-weight: 500;
 	 text-transform: uppercase;
-	 color: #a2a2a2;
+	 color: #2008f7;
 	 margin-top: 5px;
 }
  .blog-card .description .read-more {

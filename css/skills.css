@@ -1,162 +1,66 @@
+/* body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+} */
+
 body {
-    background-color: #e4c2fa;
+    background-color: #edcdf0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+.mainDiv {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
 }
-
-input[type=text], select, textarea {
-  width: 50%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
 .container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  margin: 1rem 10% 0;
+  width: 100%;
 }
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
+.container-heading {
+  /* text-align: center; */
+  color: #262f68;
+  font-size: 20px;
+  margin: 20px 0%;
 }
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 0;
+  margin: 0;
 }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* width: 15%; */
+  height: 80px;
 }
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+.item-icon {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 25px;
 }
-
-
-.container {
-  padding-top: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-bottom: 50px;
+/* #map-icon {
+  background-color: #ffe6df;
 }
-
-table, th, td {
-    border: 1px solid #000000;
-    border-collapse: collapse;
-    margin: 100px;
+#coin-icon {
+  background-color: #dff0fe;
 }
-
-table {
-    margin-left: 300px;
+#comparison-icon {
+  background-color: #fcf3df;
 }
-
-th, td {
-    padding: 5px;
-    width: 300px;
-    text-align: center;
-}
-
-.pic {
-    height: 500px;
-    width: 500px;
-    padding: 3px;
-    vertical-align:middle;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1 {
+#laptop-icon {
+  background-color: #eff2ff;
+} */
+.item-details {
+  font-size: 17px;
   text-align: center;
+  color: #7980a3;
+  padding: 13px 30px 0 10px;
+  font-weight: 550;
 }
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-/*------------present skills-------------*/
-
-.tg {
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tg td {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
-}
-
-.tg th {
-  border-color: black;
-  border-style: solid;
-  border-width: 1px;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  font-weight: normal;
-  overflow: hidden;
-  padding: 10px 5px;
-  word-break: normal;
-}
-
-.tg .tg-pz39 {
-  border-color: #000000;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: top
-}
-
-.tg .tg-wp8o {
-  border-color: #000000;
-  text-align: center;
-  vertical-align: top
-}
-
-.tg .tg-0dgv {
-  background-color: #000000;
-  border-color: #000000;
-  color: #a6a29d;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
-  vertical-align: top
-}
-
-.tg .tg-xwyw {
-  border-color: #000000;
-  text-align: center;
-  vertical-align: middle
-}
-
-.content {
-    margin-top: 100px; 
-    margin-bottom: 100px;
-}
-

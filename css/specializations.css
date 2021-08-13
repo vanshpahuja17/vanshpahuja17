@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
  body {
-	 background: #f8f8f8;
-	 font-family: Poppins, verdana, serif;
+    background-color: #edcdf0;
+	 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	 font-size: 13px;
 	 color: #434343;
 }
 
 .container2 {
-    padding: 3rem 10rem 2rem;
-    font-size: 17px;
+    padding: 1rem 10rem 2rem;
+    font-size: 20px;
 }
 
 .container {
@@ -78,7 +78,7 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    /* z-index: 1; Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
