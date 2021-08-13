@@ -1,5 +1,6 @@
 // Get the modal
 var modal = document.getElementById('myModal');
+var modal1 = document.getElementById('myModal1');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img1 = document.getElementById('myImg');
@@ -14,6 +15,7 @@ var img9 = document.getElementById('myImg9');
 var img10 = document.getElementById('myImg10');
 
 var modalImg = document.getElementById("img01");
+var modalImg1 = document.getElementById("img02");
 var captionText = document.getElementById("caption");
 
 img1.onclick = function(){
@@ -71,8 +73,8 @@ img9.onclick = function(){
 }
 
 img10.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = "../img/Specializations/7) IT Automation.jpg";
+  modal1.style.display = "block";
+  modalImg1.src = "../img/Specializations/7) IT Automation.jpg";
   captionText.innerHTML = this.alt;
 }
 
@@ -82,4 +84,5 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
   modal.style.display = "none";
+  modal1.style.display = "none";
 }

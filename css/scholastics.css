@@ -103,6 +103,13 @@
     width: 1250px;
     height: 100%;
 }
+
+.modal-content2 {
+    margin: auto;
+    display: block;
+    width: 900px;
+    height: 700px;
+}
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
     margin: auto;

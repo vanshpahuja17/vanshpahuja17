@@ -17,7 +17,7 @@ img {
   font-size: 2.5em;
   letter-spacing: .085em;
   margin: 1rem 0 1rem;
-  color: red;
+  color: #A12555;
 }
 
 .top {
@@ -88,13 +88,9 @@ img {
 .about-me {
   margin: 0;
   font-family: Nunito;
-  font-size: 15px;
+  font-size: 18px;
 }
 
-p {
-  font-family: Nunito;
-  font-size: 20px;
-}
 
 @media (max-width: 900px) {
   .profile-img {
@@ -118,4 +114,11 @@ p {
   .profile-img {
     margin-top: 25px;
   }
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
 }

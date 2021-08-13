@@ -1,7 +1,8 @@
 #mainNavbar {
     font-size: 1.2rem;
     font-weight: 100;
-	background: #5e5e5ee1 ;
+	background: #8a5afae1 ;
+    
 }
 
 #mainNavbar .navbar-brand {
@@ -28,23 +29,17 @@
 }
 
 .ml-auto {
-	padding-right: 30px;
-}
-
-.navbar-brand{
-	padding-left: 30px;
-    font-family: Lora;
+	padding-right: 80px;
 }
 
 .nav-item a {
 	color: rgb(246, 250, 253);
 }
 
-.nav-item a.active {
-	color: #ff1b2e !important;
+.nav-item{
+    padding: 0 10px 0 20px;
 }
 
-.navbar-nav > li{
-  margin-left:30px;
-  margin-right:30px;
+.nav-item a.active {
+    background: #500af3e1;
 }
