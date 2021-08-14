@@ -82,20 +82,20 @@ img9.onclick = function(){
 }
 
 img10.onclick = function(){
-  modal2.style.display = "block";
-  modalImg2.src = "../img/Scholastics/CBSE Grade-5.jpg";
+  modal4.style.display = "block";
+  modalImg4.src = "../img/Scholastics/CBSE Grade-5.jpg";
   captionText.innerHTML = this.alt;
 }
 
 img11.onclick = function(){
-  modal2.style.display = "block";
-  modalImg2.src = "../img/Scholastics/CBSE Grade-4.jpg";
+  modal4.style.display = "block";
+  modalImg4.src = "../img/Scholastics/CBSE Grade-4.jpg";
   captionText.innerHTML = this.alt;
 }
 
 img12.onclick = function(){
-  modal1.style.display = "block";
-  modalImg1.src = "../img/Scholastics/CBSE Grade-3.jpg";
+  modal4.style.display = "block";
+  modalImg4.src = "../img/Scholastics/CBSE Grade-3.jpg";
   captionText.innerHTML = this.alt;
 }
 
