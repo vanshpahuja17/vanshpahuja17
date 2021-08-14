@@ -3,6 +3,7 @@ var modal = document.getElementById('myModal');
 var modal1 = document.getElementById('myModal1');
 var modal2 = document.getElementById('myModal2');
 var modal3 = document.getElementById('myModal3');
+var modal4 = document.getElementById('myModal4');
 
 var img1 = document.getElementById('myImg');
 var img2 = document.getElementById('myImg2');
@@ -23,6 +24,7 @@ var modalImg = document.getElementById("img01");
 var modalImg1 = document.getElementById("img02");
 var modalImg2 = document.getElementById("img03");
 var modalImg3 = document.getElementById("img04");
+var modalImg4 = document.getElementById("img05");
 var captionText = document.getElementById("caption");
 
 img1.onclick = function(){
@@ -50,8 +52,8 @@ img4.onclick = function(){
 }
 
 img5.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = "../img/Scholastics/CBSE Grade-10.jpg";
+  modal4.style.display = "block";
+  modalImg4.src = "../img/Scholastics/CBSE Grade-10.jpg";
   captionText.innerHTML = this.alt;
 }
 
@@ -74,8 +76,8 @@ img8.onclick = function(){
 }
 
 img9.onclick = function(){
-  modal3.style.display = "block";
-  modalImg3.src = "../img/Scholastics/CBSE Grade-6.jpg";
+  modal4.style.display = "block";
+  modalImg4.src = "../img/Scholastics/CBSE Grade-6.jpg";
   captionText.innerHTML = this.alt;
 }
 
@@ -118,4 +120,5 @@ span.onclick = function() {
   modal1.style.display = "none";
   modal2.style.display = "none";
   modal3.style.display = "none";
+  modal4.style.display = "none";
 }

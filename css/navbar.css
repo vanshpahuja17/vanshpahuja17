@@ -42,4 +42,5 @@
 
 .nav-item a.active {
     background: #500af3e1;
+    border-radius: 25px;
 }
