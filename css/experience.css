@@ -15,7 +15,7 @@ body {
 
 /* Styling */
 .timeline {
-  margin: 4em auto;
+  margin: 2em auto;
   position: relative;
   max-width: 900px;
   list-style: none; 
@@ -27,7 +27,7 @@ body {
     margin-left: -1px;
     position: absolute;
     top: 0;
-    left: 4.5em;
+    left: 5.3em;
     width: 2px;
     height: 100%;
   }
@@ -46,7 +46,7 @@ body {
     }
 
 .timeline-event:hover .timeline-event-icon {
-      transform: rotate(220deg);
+      transform: rotate(226deg);
       transition: all 0.3s ease-in-out 0s;
       background-color: #1f9bcf;
     }
@@ -82,7 +82,7 @@ body {
   background-color: black;
   outline: 10px solid white;
   display: block;
-  margin: 0.5em 0.5em 0.5em -0.5em;
+  margin: 0.5em 0.5em 0.5em 0.6em;
   position: absolute;
   top: 0.5em;
   left: 2em;
