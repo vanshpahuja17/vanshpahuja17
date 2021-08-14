@@ -94,8 +94,8 @@ img11.onclick = function(){
 }
 
 img12.onclick = function(){
-  modal4.style.display = "block";
-  modalImg4.src = "../img/Scholastics/CBSE Grade-3.jpg";
+  modal1.style.display = "block";
+  modalImg1.src = "../img/Scholastics/CBSE Grade-3.jpg";
   captionText.innerHTML = this.alt;
 }
 
