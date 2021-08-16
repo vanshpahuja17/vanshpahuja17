@@ -11,7 +11,7 @@
 }
 
 .navbar.scrolled {
-    background: rgb(63, 63, 63) !important;
+    background: #8a5afae1;
     transition: background 500ms;
 }
 
