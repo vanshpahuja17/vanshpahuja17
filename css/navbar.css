@@ -16,6 +16,11 @@
     width:100%;
 }
 
+.navbar.scrolled {
+    background: rgba(138, 90, 250, 1) ;
+    transition: background 500ms;
+}
+
 @media (max-width: 1500px) {
     #headingGroup h1 {
         font-weight: 100;
