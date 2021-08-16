@@ -1,18 +1,13 @@
 #mainNavbar {
     font-size: 1.2rem;
     font-weight: 100;
-	background: #8a5afae ;
+	background: rgba(138, 90, 250, 1) ;
     
 }
 
 #mainNavbar .navbar-brand {
     color: #ff1b2e;
     font-size: 1.5rem;
-}
-
-.navbar.scrolled {
-    background: #8a5afae;
-    transition: background 500ms;
 }
 
 .fixed {
