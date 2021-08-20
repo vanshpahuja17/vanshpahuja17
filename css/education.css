@@ -1,6 +1,7 @@
 body {
     background-color: #edcdf0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #36454F;
 }
 
 .flex-container {
@@ -42,7 +43,6 @@ flex: 100%;
 }
 
 .flex-card .content {
-    color: #555;
     padding: 1.5rem 1rem  0 1rem; 
 }
 
