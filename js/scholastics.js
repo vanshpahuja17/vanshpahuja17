@@ -28,8 +28,8 @@ var modalImg4 = document.getElementById("img05");
 var captionText = document.getElementById("caption");
 
 img1.onclick = function(){
-  modal1.style.display = "block";
-  modalImg1.src = "../img/Scholastics/B.Tech CSE 1st Year.jpg";
+  modal.style.display = "block";
+  modalImg.src = "../img/Scholastics/B.Tech CSE 1st Year.jpg";
   captionText.innerHTML = this.alt;
 }
 

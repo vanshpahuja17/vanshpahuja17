@@ -105,25 +105,37 @@ body {
 	 position: relative;
 	 z-index: 1;
 }
- .blog-card .description h1, .blog-card .description h2 {
-	 font-family: Poppins, sans-serif;
-}
  .blog-card .description h1 {
 	 line-height: 1;
 	 margin: 0;
 	 font-size: 1.7rem;
+	 color: #008001;
+	 font-weight: 600;
 }
  .blog-card .description h2,h3 {
 	 font-size: 1rem;
-	 font-weight: 500;
+	 font-weight: 600;
 	 text-transform: uppercase;
 	 margin-top: 5px;
 }
+
+ .blog-card .description h2{
+	color: #FA0000;
+}
+
+ .blog-card .description h3{
+	color: #5F00BC;
+}
+
  .blog-card .description .read-more {
-	 text-align: right;
+	 text-align: center;
+	 background-color: #5713F4;
+	 border-radius: 25px;
+	 padding: 8px 3px;
+	 margin-left: 120px;
 }
  .blog-card .description .read-more a {
-	 color: #f73f95;
+	 color: #ffffff;
 	 display: inline-block;
 	 position: relative;
 }
@@ -142,6 +154,7 @@ body {
  .blog-card p {
 	 position: relative;
 	 margin: 1rem 0 0;
+	 color: #36454F;
 }
  .blog-card p:first-of-type {
 	 margin-top: 1.25rem;
@@ -149,9 +162,9 @@ body {
  .blog-card p:first-of-type:before {
 	 content: "";
 	 position: absolute;
-	 height: 5px;
-	 background: #f73f95;
-	 width: 35px;
+	 height: 3px;
+	 background: #0067CE;
+	 width: 64px;
 	 top: -0.75rem;
 	 border-radius: 3px;
 }
