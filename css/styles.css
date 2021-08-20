@@ -33,6 +33,7 @@ img {
   letter-spacing: .3em;
   margin: 10px 0 10px;
   font-weight: 1000;
+  color: #be00be;
 }
 
 .profile-img {
@@ -49,6 +50,7 @@ img {
   letter-spacing: .3em;
   margin-top: 10px;
   font-weight: 1000;
+  color: #be00be;
 }
 
 .page {
@@ -84,7 +86,7 @@ img {
 .about-me {
   margin: 0;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 21px;
 }
 
 
