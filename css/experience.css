@@ -38,7 +38,8 @@ body {
     }
 
 .timeline-event .timeline-event-copy  h3 {
-        color: #5815F4; 
+        color: #FE0000; 
+        font-weight: 600;
       }
 
 .timeline-event .timeline-event-thumbnail {
@@ -53,9 +54,9 @@ body {
     }
 
 .timeline-event-copy {
-  padding: 2em;
+  padding: .25em 1em;
   position: relative;
-  top: -1.875em;
+  top: -1.5em;
   left: 4em;
   width: 80%;  
 }
@@ -69,12 +70,13 @@ body {
   }
 
 .timeline-event-copy h3 {
-    font-size: 1.75em;
+    font-size: 1.25em;
   }
 
 .timeline-event-copy h4 {
     font-size: 1.2em;
     margin-bottom: 1.2em;
+    color: #010080;
   }
 
 .timeline-event-icon {
