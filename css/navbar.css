@@ -26,6 +26,11 @@
         font-weight: 100;
         font-size: 2rem;
     }
+
+    .nav-item a.active {
+        border-radius: 25px;
+        padding: 10px;
+    }
 }
 
 .ml-auto {
