@@ -113,3 +113,7 @@ body {
 .exp {
     padding-top: 50px;
 }
+
+span {
+  font-size: 18px !important;
+}
