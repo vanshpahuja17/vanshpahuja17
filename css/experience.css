@@ -62,7 +62,8 @@ body {
 }
 
 .timeline-event-copy p:not(.timeline-event-thumbnail) {
-    padding-bottom: .5em;
+    padding-top: 0.5em;
+    padding-bottom: .2em;
   }
 
 .timeline-event-copy strong {
@@ -120,12 +121,14 @@ span {
 
 
 .read-more a {
+   text-align: center;
+	 background-color: #ffb049;
+	 border-radius: 25px;
+	 padding: 8px 10px;
 	 display: inline-block;
 	 position: relative;
    font-size: 15px;
-   margin-bottom: 0.5em;
-   margin-top: 0.5em;
-   color: #0544b9;
+   color: #ffffff;
    cursor: pointer;
 }
 .read-more a:after {
