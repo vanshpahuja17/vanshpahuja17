@@ -75,7 +75,7 @@ body {
 
 .timeline-event-copy h4 {
     font-size: 1.2em;
-    margin-bottom: .5em;
+    margin-bottom: .1em;
     color: #010080;
   }
 
@@ -116,4 +116,25 @@ body {
 
 span {
   font-size: 18px !important;
+}
+
+
+.read-more a {
+	 display: inline-block;
+	 position: relative;
+   font-size: 15px;
+   margin-bottom: 0.5em;
+   margin-top: 0.5em;
+   color: #0544b9;
+   cursor: pointer;
+}
+.read-more a:after {
+	 content: "\f061";
+	 font-family: FontAwesome;
+	 margin-left: 3px;
+	 vertical-align: middle;
+	 transition: margin 0.3s, opacity 0.3s;
+}
+.read-more a:hover:after {
+	 margin-left: 5px;
 }
