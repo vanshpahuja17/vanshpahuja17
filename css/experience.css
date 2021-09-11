@@ -57,7 +57,7 @@ body {
   padding: .25em 1em;
   position: relative;
   top: -3em;
-  left: 4em;
+  left: 5.5em;
   width: 80%;  
 }
 
@@ -89,7 +89,7 @@ body {
   margin: 0.5em 0.5em 0.5em 0.6em;
   position: absolute;
   top: -3em;
-  left: 2em;
+  left: 2.45em;
   width: 1em;
   height: 1em;
 }
@@ -122,13 +122,13 @@ span {
 
 .read-more a {
    text-align: center;
-	 background-color: #ffb049;
+	 background-color: #E600E6;
 	 border-radius: 25px;
 	 padding: 8px 10px;
 	 display: inline-block;
 	 position: relative;
    font-size: 15px;
-   color: #ffffff;
+   color: #ffffff !important;
    cursor: pointer;
 }
 .read-more a:after {
@@ -139,5 +139,5 @@ span {
 	 transition: margin 0.3s, opacity 0.3s;
 }
 .read-more a:hover:after {
-	 margin-left: 5px;
+	 margin-left: 10px;
 }
