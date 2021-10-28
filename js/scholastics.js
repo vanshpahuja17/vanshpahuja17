@@ -29,7 +29,7 @@ var captionText = document.getElementById("caption");
 
 img1.onclick = function(){
   modal.style.display = "block";
-  modalImg.src = "../img/Scholastics/B.Tech CSE 1st Year.jpg";
+  modalImg.src = "../img/Scholastics/First Year Transcript 2020101121.jpg";
   captionText.innerHTML = this.alt;
 }
 
