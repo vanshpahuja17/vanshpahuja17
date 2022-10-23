@@ -1,12 +1,12 @@
 #mainNavbar {
     font-size: 1.2rem;
     font-weight: 100;
-	background: rgba(138, 90, 250, 1) ;
+	background: rgb(32, 32, 32) ;
     
 }
 
 #mainNavbar .navbar-brand {
-    color: #ff1b2e;
+    color: #9b9b9b;
     font-size: 1.5rem;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .navbar.scrolled {
-    background: rgba(138, 90, 250, 1) ;
+    background: #9b9b9b ;
     transition: background 500ms;
 }
 
@@ -46,6 +46,6 @@
 }
 
 .nav-item a.active {
-    background: #500af3e1;
+    background: #9b9b9b;
     border-radius: 25px;
 }

@@ -1,5 +1,5 @@
 body {
-    background-color: #edcdf0;
+    background-color: #fafafa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #36454F;
 }
@@ -60,16 +60,16 @@ h2, h3, h4, p {
 }
 
 .img1 {
-    background: url("https://www.iiit.ac.in/gallery/images/campus/07(1).jpg") no-repeat;
+    background: url("https://images.shiksha.com/mediadata/images/1553752427phpvP6G9K.png") no-repeat;
     background-size: cover;
 }
 
 .img2 {
-    background: url("../img/DPS.jpg") no-repeat;
+    background: url("../img/jai-hind-college.jpeg") no-repeat;
     background-size: cover;
 }
 
 .img3 {
-    background: url("https://www.yallaschools.com/uploads/Crescent_English_School,_Dubai.jpg") no-repeat;
+    background: url("https://content.jdmagicbox.com/comp/mumbai/70/022p8400070/catalogue/saraswati-vidyalaya-high-school-and-junior-college-of-science-thane-west-thane-schools-38oh.jpg?clr=5a330c") no-repeat;
     background-size: cover;
 }
